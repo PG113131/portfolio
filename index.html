@@ -1,0 +1,127 @@
+// File: index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Pawan Ganesh Bokka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Portfolio.</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+<div class="hero-content">
+  <h3>Hello, It's Me</h3>
+  <h1>Pawan Ganesh Bokka</h1>
+  <h3>And I'm a <span class="typing"></span></h3>
+
+  <!-- Only this part will animate -->
+  <div class="fade-on-scroll">
+    <p>I'm an AI/ML enthusiast and Full-Stack Developer with hands-on experience in Django, React, and Machine Learning projects.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </div>
+</div>
+
+    <div class="hero-img">
+      <img src="image.jpeg" alt="Profile Picture">
+    </div>
+  </section>
+<section id="about">
+  
+  <div class="about-container">
+    <img src="image.jpeg" alt="About Image">
+    <div>
+      <h2 style="padding-bottom: 20%;">About <span>Me</span></h2>
+      <h3>AI/ML Intern & Full Stack Developer</h3>
+      <p>
+        I am currently pursuing my B.Tech in Artificial Intelligence and Machine Learning from SRKR Engineering College.
+        With hands-on experience in Machine Learning, Django, React, and REST APIs, I aim to deliver real-world
+        solutions leveraging my problem-solving and software development skills.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <section id="services">
+    <h2>My <span>Services</span></h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>Machine Learning Solutions</h3>
+        <p>Design and develop predictive models using Python, TensorFlow, and NLP techniques.</p>
+      </div>
+      <div class="service-box">
+        <h3>Web Development</h3>
+        <p>Build and deploy scalable web applications using Django, React, and MySQL.</p>
+      </div>
+      <div class="service-box">
+        <h3>Chatbot & Generative AI</h3>
+        <p>Implement LLM-powered chatbots and enhance systems with Hugging Face Transformers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My <span>Skills</span></h2>
+    <div class="skills-container">
+      <div class="bars">
+        <label>Python</label>
+        <div class="bar"><div class="fill" style="width: 90%">90%</div></div>
+
+        <label>Django</label>
+        <div class="bar"><div class="fill" style="width: 80%">80%</div></div>
+
+        <label>React</label>
+        <div class="bar"><div class="fill" style="width: 75%">75%</div></div>
+
+        <label>Machine Learning</label>
+        <div class="bar"><div class="fill" style="width: 85%">85%</div></div>
+
+        <label>NLP</label>
+        <div class="bar"><div class="fill" style="width: 70%">70%</div></div>
+      </div>
+      <div class="circles">
+        <div class="circle">Problem Solving - 80%</div>
+        <div class="circle">Teamwork - 85%</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My <span>Projects</span></h2>
+    <div class="project-gallery">
+      <div class="project">
+        <img src="project1.jpg" alt="Spam Detection">
+        <p><strong>Spam Detection System</strong><br>Classifies messages using NLP and XGBoost. Accuracy improved using GridSearchCV.</p>
+      </div>
+      <div class="project">
+        <img src="project2.jpg" alt="Chatbot">
+        <p><strong>Chatbot using LLM</strong><br>Interactive chatbot using Hugging Face Transformers with a simple web interface.</p>
+      </div>
+      <div class="project">
+        <img src="project3.jpg" alt="Auto Evaluation">
+        <p><strong>Automatic Subjective Answer Evaluation</strong><br>Used EasyOCR and semantic similarity for automated answer grading.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
